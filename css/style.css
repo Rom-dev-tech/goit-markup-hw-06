@@ -277,7 +277,7 @@ body {
   text-align: center;
   background-color: var(--bgc-hero-color);
 }
-.hero.overlay {
+.hero.main-backgoung-img {
   max-width: 1600px;
   height: 600px;
   margin: 0 auto;
@@ -601,8 +601,6 @@ body {
   margin: 15px;
 
   outline: 1px solid #eeeeee;
-
-  /* background: #ffffff; */
 }
 .cards-link:hover,
 .cards-link:focus {
@@ -615,14 +613,17 @@ body {
 
 .cards-thumb {
   position: relative;
-
   overflow: hidden;
 }
 
-.cards-overlay {
+.overlay {
   position: absolute;
   top: 0;
   left: 0;
+  overflow: scroll;
+
+  font-size: 18px;
+  line-height: 1.55;
 
   padding: 63px 24px;
   width: 100%;
@@ -634,13 +635,9 @@ body {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.cards-link:hover .cards-overlay,
-.cards-link:focus .cards-overlay {
+.cards-link:hover .overlay,
+.cards-link:focus .overlay {
   transform: translateY(0);
 }
 
-.overlay-text {
-  font-size: 18px;
-  line-height: 1.55;
-}
 /* =======END PORTFOLIO======= */
