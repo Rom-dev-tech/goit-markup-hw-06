@@ -803,7 +803,7 @@ body {
   box-shadow: 0 0 0 0.1em var(--accent-text-color);
 }
 .checkbox-input:disabled + .checkbox-icon {
-  border: 2px solid #var(var(--icon-color));
+  border: 2px solid var(var(--icon-color));
 }
 .checkbox-input:checked:disabled + .checkbox-icon {
   background-color: var(--icon-color);
