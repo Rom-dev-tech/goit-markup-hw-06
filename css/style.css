@@ -120,6 +120,23 @@ body {
   background-color: var(--accent-text-color);
   fill: var(--white-text-color);
 }
+.btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--white-text-color);
+  background-color: var(--accent-text-color);
+  letter-spacing: 0.06em;
+
+  padding: 10px 30px;
+
+  background: var(--accent-text-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
+
+  cursor: pointer;
+}
 /* =======END COMPONENTS======= */
 
 /* =======BACKDROP======= */
@@ -308,23 +325,6 @@ body {
   max-width: 696px;
   margin-left: auto;
   margin-right: auto;
-}
-.hero-btn {
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.87;
-  color: var(--white-text-color);
-  background-color: var(--accent-text-color);
-  letter-spacing: 0.06em;
-
-  padding: 10px 30px;
-
-  background: #2196f3;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  border: none;
-
-  cursor: pointer;
 }
 /* =======END HERO======= */
 
@@ -533,6 +533,56 @@ body {
   color: var(--white-text-color);
 }
 /* =======END FOOTER======= */
+
+/* =======FOOTER-FORM======= */
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+
+  margin-left: auto;
+}
+.footer-form-input {
+  min-width: 358px;
+  height: 50px;
+  margin-right: 8px;
+
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.footer-form-input::placeholder {
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+
+  padding-left: 16px;
+}
+
+.footer-send-btn {
+  position: relative;
+  padding: 10px 62px 10px 29px;
+}
+.btn-icon {
+  position: absolute;
+  top: 50%;
+  right: 28px;
+
+  margin-left: 10px;
+
+  transform: translateY(-50%);
+
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background-color: #fff;
+}
+/* =======END FOOTER-FORM======= */
 
 /* =======PORTFOLIO======= */
 .border-portfolio {
