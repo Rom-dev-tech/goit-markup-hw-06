@@ -698,8 +698,8 @@ body {
   content: '';
   display: inline-block;
 
-  width: 15px;
-  height: 16px;
+  width: 16px;
+  height: 15px;
   background-color: transparent;
 
   border-width: 2px;
