@@ -121,6 +121,7 @@ body {
   fill: var(--white-text-color);
 }
 .btn {
+  min-width: 200px;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -128,7 +129,7 @@ body {
   background-color: var(--accent-text-color);
   letter-spacing: 0.06em;
 
-  padding: 10px 30px;
+  padding: 10px 0;
 
   background: var(--accent-text-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -170,7 +171,7 @@ body {
   border-radius: 4px;
 }
 
-.modal-btn {
+.modal-close-btn {
   position: absolute;
   top: 8px;
   right: 8px;
@@ -325,6 +326,10 @@ body {
   max-width: 696px;
   margin-left: auto;
   margin-right: auto;
+}
+.hero-btn {
+  padding-left: 28px;
+  padding-right: 28px;
 }
 /* =======END HERO======= */
 
@@ -567,7 +572,9 @@ body {
 
 .footer-send-btn {
   position: relative;
-  padding: 10px 62px 10px 29px;
+  padding-left: 29px;
+  padding-right: 28px;
+  text-align: start;
 }
 .btn-icon {
   position: absolute;
@@ -808,5 +815,10 @@ body {
 }
 .checkbox-input:checked:disabled + .checkbox-icon {
   background-color: var(--icon-color);
+}
+
+.form-submit-btn {
+  padding-left: 50px;
+  padding-right: 50px;
 }
 /* =======END FORM======= */
