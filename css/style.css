@@ -727,7 +727,7 @@ body {
   border-color: transparent;
 }
 .checkbox-input:focus + .checkbox-icon {
-  box-shadow: 0 0 0 0.1em var(--accent-text-color);
+  box-shadow: 0 0 0 0.1em var(--title-text-color);
 }
 .checkbox-input:disabled + .checkbox-icon {
   border: 2px solid var(var(--icon-color));
